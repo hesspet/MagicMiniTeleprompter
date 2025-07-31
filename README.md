@@ -33,15 +33,16 @@ Je nachdem ob hierzu Resonanz besteht, werde ich auch ggf. dann ein fertiges APK
 
 ## T-Display in der Hand versteckt
 
-![s1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_1.jpg)
-![s2](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_2.jpg)
-![s3](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_3.jpg)
-![s4](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_4.jpg)
-![s5](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_5.jpg)
+<img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_1.jpg" 
+  width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_2.jpg" 
+  width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_3.jpg" 
+  width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_4.jpg" 
+  width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_5.jpg" 
+  width="400">
 
 ## Münzversteck
 
 Die Münze enspricht der größe einer 1 Dollar Münze also rund 4 cm. Dann hat man hier ein guten Vergleich wie groß das Gerät in der Hand ist. Münze mit Loch bringt da noch gleich ein paar Ideen....
 
-![m1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Vergleich_mit_M%C3%BCnze_Dollargr%C3%B6%C3%9Fe_4cm_1.jpg)
-![m2](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Vergleich_mit_M%C3%BCnze_Dollargr%C3%B6%C3%9Fe_4cm_2.jpg)
+<img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Vergleich_mit_M%C3%BCnze_Dollargr%C3%B6%C3%9Fe_4cm_1.jpg" width="400"><img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Vergleich_mit_M%C3%BCnze_Dollargr%C3%B6%C3%9Fe_4cm_2.jpg" width="400">
+

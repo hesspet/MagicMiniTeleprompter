@@ -15,7 +15,7 @@ Nachdem ich den Code schon recht weit getrieben habe bin ich dann auf einen Anbi
 
 https://electricks.info/de/product/peeksmith-3/
 
-Ich hatte mal überlegt dies kommerziell zu machen. Aber electricks hat für die "Profis" alles was man sich wünscht. Also habe ich beschlossen, dieses Projekt frei zu geben und den kleinen Hobbyzauberern und Amateueren die nicht mal schnell ein paar hundert Euro für eine solche Plattform ausgeben können eine Möglichkeit zu geben mit einer "Bastellösung" recht weit zu kommen. Wir Reden hier in der einfachsten Form von unter 30 Euro! Wenn ein Smartphone vorhanden ist.
+Ich hatte mal überlegt dies kommerziell zu machen. Aber electricks hat für die "Profis" alles was man sich wünscht. Also habe ich beschlossen, dieses Projekt frei zu geben und den "kleinen Hobbyzauberern" und Amateuen die nicht mal schnell ein paar hundert Euro für eine solche Plattform ausgeben können, eine Möglichkeit zu geben mit einer "Bastellösung" recht weit zu kommen. Wir Reden hier in der einfachsten Form von unter 30€! - wenn ein Smartphone (Android) vorhanden ist.
 
 Ziel war es, Fertigelemente einzusetzen. Aktuell nutze ich das T-Display von Lilygo: https://lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board Das Teil ist auch bei deuteschen Anbietern für 10-15 Euro zu bekommen. Ein Akku dazu und die Billiglösung ist fertig. Also für rund 20E zu basteln. Weitere Komponenten sind schon in der Bestellung. Vor allem die Teile von m5stack sind für Leute ohne Lötkolben eine tolle Variante.
 

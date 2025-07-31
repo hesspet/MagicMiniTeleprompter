@@ -33,6 +33,7 @@ Je nachdem ob hierzu Resonanz besteht, werde ich auch ggf. dann ein fertiges APK
 * Weitere Controler sichten
 * Anbind von Smartwatch (habe ich schon im Hintergrund hier liege)
 * jegliche weitere Schandtaten solange der Vorrat reicht... :-)
+* Gerne auch Anbindung an bestehende App Apis. Da ich beruflich mit nur mit so einem Kram rumschlage sollte das alles lösbar sein. Ist mehr eine Zeit und Ideenfrage.
 
 # Screenshots
 

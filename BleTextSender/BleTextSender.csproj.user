@@ -3,9 +3,9 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net9.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Pixel 7 Pro - API 34 (Android 14.0 - API 34)</ActiveDebugProfile>
-    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
-    <DefaultDevice>pixel_7_pro_-_api_34</DefaultDevice>
+    <ActiveDebugProfile>Nexus 9 - API 34 (Android 14.0 - API 34)</ActiveDebugProfile>
+    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <DefaultDevice>nexus_9_-_api_34</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetPlatformIdentifier)'=='iOS'">
     <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>

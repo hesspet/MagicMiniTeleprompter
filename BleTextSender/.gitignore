@@ -1,1 +1,7 @@
 /.vs
+bin
+obj
+*.user
+*.bak
+*.suo
+*.userosscache

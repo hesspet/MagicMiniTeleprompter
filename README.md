@@ -30,15 +30,15 @@ Fragt bitte nicht nach iPhone – ich habe kein macOS-Entwicklungsumfeld, und di
 
 Das Programmierumfeld ist komplett kostenfrei, es kann also nichts anbrennen:
 
-Arduino IDE mit ESP32-Board-Erweiterung
-
-Visual Studio 2022 + .NET MAUI
+* Arduino IDE mit ESP32-Board-Erweiterung
+* Visual Studio 2022 + .NET MAUI
 
 Je nachdem, ob es hierzu Resonanz gibt, werde ich bei Interesse auch ein fertiges APK samt Anleitung bereitstellen. Das hier ist – wie gesagt – ein reines Freizeitprojekt. Wer Ideen hat, darf sich gerne melden:
 📧 hesspet at gmx.de
 
 # Roadmap
 
+* ~~Erste Verlautbarung in einem Chat mit Zauberern~~ OK 31.07.2025
 * Feedbackmechanismen, um ggf. Signale an andere ESP32-Geräte zu senden – zum Beispiel zur Ansteuerung von Motoren oder ähnlichen „Zauber-Spielereien“
 * Sichtung und Bewertung weiterer Controller-Plattformen
 * Anbindung einer Smartwatch – liegt bereits startklar im Hintergrund: Amazfit GTR 4 👉 https://www.amazfit.com/products/amazfit-gtr-4

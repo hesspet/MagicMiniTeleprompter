@@ -10,24 +10,23 @@ Also überlegt eine kleine Device zu bauen die man in der Hand verstecken kann u
 
 Und MAUI wollte ich schon die ganze Zeit mir mal etwas intensiver ansehen.
 
-Nachdem ich den Code schon recht weit getrieben habe bin ich dann auf einen Anbieter gestolpert der mehr oder weniger genau das anbietet was ich mir hier ausgedacht habe.
+Nachdem ich den Code schon recht weit getrieben habe bin ich dann auf einen Anbieter gestolpert, der mehr oder weniger genau das anbietet was ich mir hier ausgedacht habe. Natürlich viel professioneller.
 
 https://electricks.info/de/product/peeksmith-3/
 
-Ich hatte mal überlegt dies kommerziell zu machen. Aber electricks hat für die "Profis" alles was man sich wünscht. Also habe ich beschlossen, dieses Projekt frei zu geben und den kleinen Hobbyzauberern und Amateueren die nicht mal schnell ein paar hundert Euro für eine solche Plattform ausgeben können eine möglichkeit zu geben mit einer "Bastellösung" recht weit zu kommen.
+Ich hatte mal überlegt dies kommerziell zu machen. Aber electricks hat für die "Profis" alles was man sich wünscht. Also habe ich beschlossen, dieses Projekt frei zu geben und den kleinen Hobbyzauberern und Amateueren die nicht mal schnell ein paar hundert Euro für eine solche Plattform ausgeben können eine Möglichkeit zu geben mit einer "Bastellösung" recht weit zu kommen. Wir Reden hier in der einfachsten Form von unter 30 Euro! Wenn ein Smartphone vorhanden ist.
 
-Ziel war es, Fertigelemente einzusetzen. Aktuell nutze ich das T-Display von Lilygo: https://lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board Das Teil ist auch bei deuteschen Anbietern für 10-15 Euro zu bekommen. Ein Akku dazu und die Billiglösung ist fertig. Also für rund 20E zu basteln.
+Ziel war es, Fertigelemente einzusetzen. Aktuell nutze ich das T-Display von Lilygo: https://lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board Das Teil ist auch bei deuteschen Anbietern für 10-15 Euro zu bekommen. Ein Akku dazu und die Billiglösung ist fertig. Also für rund 20E zu basteln. Weitere Komponenten sind schon in der Bestellung. Vor allem die Teile von m5stack sind für Leute ohne Lötkolben eine tolle Variante.
 
-Smartphone hat jeder... los geht's. 
+Smartphone hat jeder... los geht's. Naja Android muss es im Moment sein. Fragt bitte nicht nach iPhone. Ich habe kein MAC Umfeld zur Entwicklung - dies ist ein Hobbyprojekt. Also aktuell spielt hier die Musik nur unter Android. 
 
-Fragt bitte nicht nach iPhone. Ich habe kein Mac Umfeld. Also aktuell spielt hier die Musik nur unter Android. 
-
-Das Programmierumfeld ist komplett kostenfrei, so dass hier auch nichts anbrennt. 
+Das Programmierumfeld ist komplett kostenfrei, so dass hier auch nichts anbrennt:
 
 * Arduino IDE mit ESP32 Board Erweiterung
 * Visual Studion 2022 + MAUI 
 
 Je nachdem ob hierzu Resonanz besteht, werde ich auch ggf. dann ein fertiges APK machen und Anleitung etc. Das hier ist ein reines Freizeitprojekt. Wer Ideen hat, bitte mich kontaktieren. (hesspet at gmx.de)
+
 # Roadmap
 
 * Feedback um ggf. Signale an andere ESP zu schicken um ggf. Motoren zu steuer und so Spielerreien

@@ -4,7 +4,7 @@ Eine ESP32/Smartphone/Smartuhr Device um heimlich Nachrichten in die Hand zu sen
 
 Eine "Spielerei"....
 
-Ursprünglich nur als Projekt gedacht um ein wenig mehr über MAUI herauszufinden. Dann plötzlich eine Idee, warum nicht mal etwas für das Hobby "Zaubern" zu tun.
+Ursprünglich nur als Projekt gedacht um ein wenig mehr über MAUI herauszufinden. Dann plötzlich eine Idee, warum nicht mal etwas für das Hobby "Zaubern" zu tun?
 
 Also überlegt eine kleine Device zu bauen die man in der Hand verstecken kann und man so mal schnell eben eine Information "peeken" kann. Eins kommt zum Anderen und leider auch gerade noch mein Job durch eine Insolvenz verloren. Also ist auch ein wenig Zeit da.
 

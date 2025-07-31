@@ -6,21 +6,31 @@
 #include <BLEServer.h>
 #include "DisplayHandler.h"
 
+//
+// * Encapsulates the BLE Handling
+// * Gets displayhandler injected in constructor
+// 
 class BLEHandler {
 public:
+  
   void begin(DisplayHandler* display);
+ 
+  ServerCallbacks(DisplayHandler* display) : display(display) {}
+  
+  void onConnect(BLEServer* pServer) override;
+  void onDisconnect(BLEServer* pServer) override;
 
 private:
+  
+  void startAdvertising();
+
   BLEServer* pServer = nullptr;
   DisplayHandler* display = nullptr;  
   BLECharacteristic* rxCharacteristic = nullptr;
 
   class ServerCallbacks : public BLEServerCallbacks {
-  public:
-    ServerCallbacks(DisplayHandler* display) : display(display) {}
-    void onConnect(BLEServer* pServer) override;
-    void onDisconnect(BLEServer* pServer) override;
-  private:
+  
+    // reference to the display, set in begin(...)
     DisplayHandler* display;
      
   };

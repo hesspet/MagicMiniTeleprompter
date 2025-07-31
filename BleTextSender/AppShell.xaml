@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:BleTextSender"
+    x:Class="BleTextSender.AppShell">
+
+    <TabBar>
+        <ShellContent Title="Scannen" ContentTemplate="{DataTemplate local:ScanPage}" Route="ScanPage" />
+        <ShellContent Title="Text senden" ContentTemplate="{DataTemplate local:TextSenderPage}" Route="TextSenderPage" IsVisible="True" IsEnabled="True" />
+        <ShellContent Title="Tastatur" ContentTemplate="{DataTemplate local:DialPadPage}" Route="DialPadPage" IsVisible="True" IsEnabled="True" />
+        <ShellContent Title="Karten" ContentTemplate="{DataTemplate local:CardsPage}" Route="CardsPage" IsVisible="True" IsEnabled="True" />
+        <ShellContent Title="Einstellungen"
+                      Icon="settings.svg"
+                      ContentTemplate="{DataTemplate local:SettingsPage}"
+                      Route="SettingsPage">
+        </ShellContent>
+    </TabBar>
+</Shell>

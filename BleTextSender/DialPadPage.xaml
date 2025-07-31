@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resx="clr-namespace:BleTextSender.Resources"
+             x:Class="BleTextSender.DialPadPage"
+             Title="Tastatur">
+    <VerticalStackLayout Spacing="20" Padding="20">
+        <Label Text="Wählen Sie eine Nummer:"
+               FontSize="24"
+               HorizontalOptions="Center" />
+        <Label x:Name="SelectedNumberLabel"
+               FontSize="32"
+               HorizontalOptions="Center"
+               TextColor="DarkBlue" />
+        <Grid Padding="20" RowSpacing="10" ColumnSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Zeile 1 -->
+            <Button Text="1" Grid.Row="0" Grid.Column="0" Clicked="OnButtonClicked" />
+            <Button Text="2" Grid.Row="0" Grid.Column="1" Clicked="OnButtonClicked" />
+            <Button Text="3" Grid.Row="0" Grid.Column="2" Clicked="OnButtonClicked" />
+
+            <!-- Zeile 2 -->
+            <Button Text="4" Grid.Row="1" Grid.Column="0" Clicked="OnButtonClicked" />
+            <Button Text="5" Grid.Row="1" Grid.Column="1" Clicked="OnButtonClicked" />
+            <Button Text="6" Grid.Row="1" Grid.Column="2" Clicked="OnButtonClicked" />
+
+            <!-- Zeile 3 -->
+            <Button Text="7" Grid.Row="2" Grid.Column="0" Clicked="OnButtonClicked" />
+            <Button Text="8" Grid.Row="2" Grid.Column="1" Clicked="OnButtonClicked" />
+            <Button Text="9" Grid.Row="2" Grid.Column="2" Clicked="OnButtonClicked" />
+
+            <!-- Zeile 4 -->
+            <Button Text="*" Grid.Row="3" Grid.Column="0" Clicked="OnButtonClicked" />
+            <Button Text="0" Grid.Row="3" Grid.Column="1" Clicked="OnButtonClicked" />
+            <Button Text="#" Grid.Row="3" Grid.Column="2" Clicked="OnButtonClicked" />
+        </Grid>
+        <Button Text="{x:Static resx:AppResources.ClearButton}"
+          Clicked="OnClearClicked"
+          FontSize="16"
+          BackgroundColor="#f44336"
+          TextColor="White"
+          CornerRadius="8"
+          HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

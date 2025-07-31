@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BleTextSender.ScanPage"
+             Title="BLE-Gerät wählen">
+
+    <VerticalStackLayout Padding="10" Spacing="10">
+
+        <Label Text="Verfügbare BLE-Geräte:"
+               FontAttributes="Bold"
+               FontSize="18" />
+
+        <CollectionView x:Name="DeviceListView"
+                        SelectionMode="Single"
+                        SelectionChanged="DeviceListView_SelectionChanged"
+                        HeightRequest="300">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Stroke="LightGray"
+                            StrokeThickness="1"
+                            BackgroundColor="White"
+                            Margin="5"
+                            Padding="10"
+                            StrokeShape="RoundRectangle 10">
+                        <VerticalStackLayout>
+                            <Label Text="{Binding Name}"
+                                   FontSize="16"
+                                   FontAttributes="Bold" />
+                            <Label Text="{Binding Id}"
+                                   FontSize="12"
+                                   TextColor="Gray" />
+                        </VerticalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <ActivityIndicator IsRunning="True"
+                           Color="Gray"
+                           IsVisible="True"
+                           HorizontalOptions="Center" />
+
+        <Label Text="Tippe auf ein Gerät, um es zu verbinden."
+               FontSize="14"
+               TextColor="Gray"
+               HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resx="clr-namespace:BleTextSender.Resources"
+             x:Class="BleTextSender.CardsPage"
+             Title="Karten"
+             BackgroundColor="DarkGreen">
+    <VerticalStackLayout Spacing="16" Padding="16">
+
+        <!-- Obere Reihe: Farbauswahl durch Ass-Karten -->
+        <CollectionView x:Name="SuitSelector"
+                        ItemsSource="{Binding AceCards}"
+                        SelectionMode="Single"
+                        SelectedItem="{Binding SelectedSuitImage, Mode=TwoWay}"
+                        HorizontalOptions="Center">
+
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Horizontal"
+                           ItemSpacing="12" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Stroke="Gray" StrokeThickness="1" StrokeShape="RoundRectangle 4">
+                        <Image Source="{Binding}" HeightRequest="80" WidthRequest="55" Margin="4" />
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Zweite Reihe: Karten der ausgewählten Farbe -->
+        <CollectionView x:Name="CardGrid"
+                        ItemsSource="{Binding FilteredCards}"
+                        SelectionMode="Single"
+                        SelectionChanged="OnCardSelected">
+
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"
+                         Span="4"
+                         VerticalItemSpacing="16"
+                         HorizontalItemSpacing="8" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding}" HeightRequest="80" WidthRequest="55" />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button Text="{x:Static resx:AppResources.ClearButton}"
+            HorizontalOptions="Center"
+            Clicked="OnClearClicked"
+            BackgroundColor="DarkRed"
+            TextColor="White"
+            Padding="12,6"
+            CornerRadius="8"
+            Margin="0,16,0,0" />
+    </VerticalStackLayout>
+</ContentPage>

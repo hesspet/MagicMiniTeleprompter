@@ -31,3 +31,8 @@ Das Programmierumfeld ist komplett kostenfrei, so dass hier auch nichts anbrennt
 
 Je nachdem ob hierzu Resonanz besteht, werde ich auch ggf. dann ein fertiges APK machen und Anleitung etc. Das hier ist ein reines Freizeitprojekt. Wer Ideen hat, bitte mich kontaktieren. 
 
+![s1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_1.jpg)
+![s1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_2.jpg)
+![s1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_3.jpg)
+![s1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_4.jpg)
+![s1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_5.jpg)

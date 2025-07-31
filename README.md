@@ -28,6 +28,12 @@ Das Programmierumfeld ist komplett kostenfrei, so dass hier auch nichts anbrennt
 * Visual Studion 2022 + MAUI 
 
 Je nachdem ob hierzu Resonanz besteht, werde ich auch ggf. dann ein fertiges APK machen und Anleitung etc. Das hier ist ein reines Freizeitprojekt. Wer Ideen hat, bitte mich kontaktieren. (hesspet at gmx.de)
+# Roadmap
+
+* Feedback um ggf. Signale an andere ESP zu schicken um ggf. Motoren zu steuer und so Spielerreien
+* Weitere Controler sichten
+* Anbind von Smartwatch (habe ich schon im Hintergrund hier liege)
+* jegliche weitere Schandtaten solange der Vorrat reicht... :-)
 
 # Screenshots
 

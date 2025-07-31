@@ -31,6 +31,12 @@ Das Programmierumfeld ist komplett kostenfrei, so dass hier auch nichts anbrennt
 
 Je nachdem ob hierzu Resonanz besteht, werde ich auch ggf. dann ein fertiges APK machen und Anleitung etc. Das hier ist ein reines Freizeitprojekt. Wer Ideen hat, bitte mich kontaktieren. 
 
+## T-Display - Nahansicht
+
+Testbetrieb via USB, Akku ist hinter der Platine montiert. Wird im USB Betrieb geladen
+
+<img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_1.jpg" width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_2.jpg" width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_3.jpg" width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_4.jpg" width="400">
+
 ## T-Display in der Hand versteckt
 
 <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_1.jpg" 

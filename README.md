@@ -31,20 +31,24 @@ Das Programmierumfeld ist komplett kostenfrei, so dass hier auch nichts anbrennt
 
 Je nachdem ob hierzu Resonanz besteht, werde ich auch ggf. dann ein fertiges APK machen und Anleitung etc. Das hier ist ein reines Freizeitprojekt. Wer Ideen hat, bitte mich kontaktieren. 
 
+## Android Screenshots - Version 31.7.2027
+
+<img src="https://github.com/hesspet/MagicMiniTeleprompter/blob/main/Screenshots/Screenshot_Auswwahl_BLE_Device.jpg" width="300"> <img src="https://github.com/hesspet/MagicMiniTeleprompter/blob/main/Screenshots/Screenshot_TextSenden_1.jpg" width="300"> <img src="https://github.com/hesspet/MagicMiniTeleprompter/blob/main/Screenshots/Screenshot_TextSenden_2.jpg" width="300"> <img src="https://github.com/hesspet/MagicMiniTeleprompter/blob/main/Screenshots/Screenshot_Schnellübertragung_Zahl_2.jpg" width="300"> <img src="https://github.com/hesspet/MagicMiniTeleprompter/blob/main/Screenshots/Screenshot_Kartenauswahl_1.jpg" width="300"> <img src="https://github.com/hesspet/MagicMiniTeleprompter/blob/main/Screenshots/Screenshot_Kartenauswahl_2.jpg" width="300">
+
 ## T-Display - Nahansicht
 
 Testbetrieb via USB, Akku ist hinter der Platine montiert. Wird im USB Betrieb geladen
 
-<img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_1.jpg" width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_2.jpg" width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_3.jpg" width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_4.jpg" width="400">
+<img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_1.jpg" width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_2.jpg" width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_3.jpg" width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_4.jpg" width="300">
 
 ## T-Display in der Hand versteckt
 
 <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_1.jpg" 
-  width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_2.jpg" 
-  width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_3.jpg" 
-  width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_4.jpg" 
-  width="400"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_5.jpg" 
-  width="400">
+  width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_2.jpg" 
+  width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_3.jpg" 
+  width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_4.jpg" 
+  width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_5.jpg" 
+  width="300">
 
 ## Münzversteck
 

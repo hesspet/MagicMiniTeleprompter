@@ -31,8 +31,17 @@ Das Programmierumfeld ist komplett kostenfrei, so dass hier auch nichts anbrennt
 
 Je nachdem ob hierzu Resonanz besteht, werde ich auch ggf. dann ein fertiges APK machen und Anleitung etc. Das hier ist ein reines Freizeitprojekt. Wer Ideen hat, bitte mich kontaktieren. 
 
+## T-Display in der Hand versteckt
+
 ![s1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_1.jpg)
-![s1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_2.jpg)
-![s1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_3.jpg)
-![s1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_4.jpg)
-![s1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_5.jpg)
+![s2](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_2.jpg)
+![s3](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_3.jpg)
+![s4](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_4.jpg)
+![s5](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_5.jpg)
+
+## Münzversteck
+
+Die Münze enspricht der größe einer 1 Dollar Münze also rund 4 cm. Dann hat man hier ein guten Vergleich wie groß das Gerät in der Hand ist. Münze mit Loch bringt da noch gleich ein paar Ideen....
+
+![m1](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Vergleich_mit_M%C3%BCnze_Dollargr%C3%B6%C3%9Fe_4cm_1.jpg)
+![m2](https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Vergleich_mit_M%C3%BCnze_Dollargr%C3%B6%C3%9Fe_4cm_2.jpg)

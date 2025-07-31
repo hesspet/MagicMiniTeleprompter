@@ -1,4 +1,4 @@
-# Magic Mini Teleprompter
+[# Magic Mini Teleprompter
 
 Eine ESP32/Smartphone/Smartuhr Device um heimlich Nachrichten in die Hand zu senden 
 
@@ -15,26 +15,36 @@ Nachdem ich den Code schon recht weit getrieben habe bin ich dann auf einen Anbi
 
 https://electricks.info/de/product/peeksmith-3/
 
-Ich hatte mal überlegt dies kommerziell zu machen. Aber electricks hat für die "Profis" alles was man sich wünscht. Also habe ich beschlossen, dieses Projekt frei zu geben und den "kleinen Hobbyzauberern" und Amateuen die nicht mal schnell ein paar hundert Euro für eine solche Plattform ausgeben können, eine Möglichkeit zu geben mit einer "Bastellösung" recht weit zu kommen. Wir Reden hier in der einfachsten Form von unter 30€! - wenn ein Smartphone (Android) vorhanden ist.
+Ich hatte einmal überlegt, das Ganze kommerziell anzugehen. Aber Electricks bietet für die „Profis“ bereits alles, was man sich wünschen kann. Also habe ich beschlossen, dieses Projekt freizugeben – und den „kleinen Hobbyzauberern“ und Amateuren, die nicht mal eben ein paar Hundert Euro für eine solche Plattform ausgeben können, eine Möglichkeit zu bieten, mit einer Bastellösung erstaunlich weit zu kommen.
 
-Ziel war es, Fertigelemente einzusetzen. Aktuell nutze ich das T-Display von Lilygo: https://lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board Das Teil ist auch bei deuteschen Anbietern für 10-15 Euro zu bekommen. Ein Akku dazu und die Billiglösung ist fertig. Also für rund 20E zu basteln. Weitere Komponenten sind schon in der Bestellung. Vor allem die Teile von m5stack sind für Leute ohne Lötkolben eine tolle Variante.
+Wir reden hier – in der einfachsten Ausführung – von unter 30 €, sofern ein Android-Smartphone vorhanden ist!
 
-Smartphone hat jeder... los geht's. Naja Android muss es im Moment sein. Fragt bitte nicht nach iPhone. Ich habe kein MAC Umfeld zur Entwicklung - dies ist ein Hobbyprojekt. Also aktuell spielt hier die Musik nur unter Android. 
+Ziel war es, möglichst viele Fertigelemente zu verwenden. Aktuell nutze ich das T-Display von LilyGO: 👉 https://lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board
+Das Teil ist auch bei deutschen Anbietern für etwa 15–20€ (manchmal auch günstiger) erhältlich. Noch ein Akku dazu – und die Billiglösung steht. Also für rund 25 € realisierbar. 
 
-Das Programmierumfeld ist komplett kostenfrei, so dass hier auch nichts anbrennt:
+Weitere Komponenten sind bereits bestellt um noch andere Ideen zu realisieren. Vor allem die Bauteile von M5Stack sind für Leute ohne Lötkolben eine tolle Variante.
 
-* Arduino IDE mit ESP32 Board Erweiterung
-* Visual Studion 2022 + MAUI 
+Ein Smartphone hat heutzutage ohnehin jeder … also los geht’s.
+Allerdings: Im Moment läuft alles nur unter Android.
+Fragt bitte nicht nach iPhone – ich habe kein macOS-Entwicklungsumfeld, und dies ist ein reines Hobbyprojekt. Die Musik spielt aktuell nur unter Android.
 
-Je nachdem ob hierzu Resonanz besteht, werde ich auch ggf. dann ein fertiges APK machen und Anleitung etc. Das hier ist ein reines Freizeitprojekt. Wer Ideen hat, bitte mich kontaktieren. (hesspet at gmx.de)
+Das Programmierumfeld ist komplett kostenfrei, es kann also nichts anbrennen:
+
+Arduino IDE mit ESP32-Board-Erweiterung
+
+Visual Studio 2022 + .NET MAUI
+
+Je nachdem, ob es hierzu Resonanz gibt, werde ich bei Interesse auch ein fertiges APK samt Anleitung bereitstellen. Das hier ist – wie gesagt – ein reines Freizeitprojekt. Wer Ideen hat, darf sich gerne melden:
+📧 hesspet at gmx.de
 
 # Roadmap
 
-* Feedback um ggf. Signale an andere ESP zu schicken um ggf. Motoren zu steuer und so Spielerreien
-* Weitere Controler sichten
-* Anbindune von Smartwatch (habe ich schon im Hintergrund hier liege) GTR 4 (https://www.amazfit.com/products/amazfit-gtr-4)
-* jegliche weitere Schandtaten solange der Vorrat reicht... :-)
-* Gerne auch Anbindung an bestehende App Apis. Da ich beruflich mit nur mit so einem Kram rumschlage sollte das alles lösbar sein. Ist mehr eine Zeit und Ideenfrage.
+* Feedbackmechanismen, um ggf. Signale an andere ESP32-Geräte zu senden – zum Beispiel zur Ansteuerung von Motoren oder ähnlichen „Zauber-Spielereien“
+* Sichtung und Bewertung weiterer Controller-Plattformen
+* Anbindung einer Smartwatch – liegt bereits startklar im Hintergrund: Amazfit GTR 4 👉 https://www.amazfit.com/products/amazfit-gtr-4
+* Und natürlich: alle weiteren Schandtaten, solange der Vorrat reicht 😄
+
+Gerne auch: Integration in bestehende App-APIs. Da ich beruflich ohnehin ständig mit so etwas zu tun habe, sollte das technisch alles machbar sein – die einzige Frage ist wie immer: Habe ich Zeit und genug Ideen?
 
 # Screenshots
 

@@ -8,7 +8,8 @@ Ursprünglich nur als Projekt gedacht um ein wenig mehr über MAUI herauszufinde
 
 Also überlegt eine kleine Device zu bauen die man in der Hand verstecken kann und man so mal schnell eben eine Information "peeken" kann. Eins kommt zum Anderen und leider auch gerade noch mein Job durch eine Insolvenz verloren. Also ist auch ein wenig Zeit da.
 
-Und MAUI wollte ich schon die ganze Zeit mir mal etwas intensiver ansehen.
+* MAUI wollte ich schon die ganze Zeit mir mal etwas intensiver ansehen
+* Spannend ist dabei die Kommunikation nicht mit "normalen" Bluetooth sondern der Variante mit BLE, also der Version, die vor allem deutlich weniger Energie braucht. Das ist ein Thema das mich besonders wg. meiner Smartwatch GTR 4 (https://www.amazfit.com/products/amazfit-gtr-4). Da diese Uhr locker 14 Tage im normalen Betrieb ohne Nachladen auskommt, ist sie für mich ein täglicher Begleiter. Und es gibt ein Developmentkit inkl. BLE Anbindung.
 
 Nachdem ich den Code schon recht weit getrieben habe bin ich dann auf einen Anbieter gestolpert, der mehr oder weniger genau das anbietet was ich mir hier ausgedacht habe. Natürlich viel professioneller.
 
@@ -31,7 +32,7 @@ Je nachdem ob hierzu Resonanz besteht, werde ich auch ggf. dann ein fertiges APK
 
 * Feedback um ggf. Signale an andere ESP zu schicken um ggf. Motoren zu steuer und so Spielerreien
 * Weitere Controler sichten
-* Anbind von Smartwatch (habe ich schon im Hintergrund hier liege)
+* Anbindune von Smartwatch (habe ich schon im Hintergrund hier liege) GTR 4 (https://www.amazfit.com/products/amazfit-gtr-4)
 * jegliche weitere Schandtaten solange der Vorrat reicht... :-)
 * Gerne auch Anbindung an bestehende App Apis. Da ich beruflich mit nur mit so einem Kram rumschlage sollte das alles lösbar sein. Ist mehr eine Zeit und Ideenfrage.
 

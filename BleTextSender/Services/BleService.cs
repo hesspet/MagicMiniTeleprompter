@@ -7,6 +7,7 @@ using System.Diagnostics;
 
 namespace BleTextSender.Services;
 
+/// <inheritdoc cref="IBleService" />
 public class BleService : IBleService
 {
     public BleService(ILogger<BleService> logger)

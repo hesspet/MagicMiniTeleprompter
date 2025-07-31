@@ -5,8 +5,6 @@ using Android.OS;
 using Android.Runtime;
 using AndroidX.Core.App;
 using AndroidX.Core.Content;
-using BleTextSender.Messages;
-using CommunityToolkit.Mvvm.Messaging;
 
 namespace BleTextSender;
 
@@ -26,12 +24,10 @@ public partial class MainActivity : MauiAppCompatActivity
             grantResults.All(r => r == Permission.Granted))
         {
             Console.WriteLine("[BLE][MainActivity] Berechtigung erteilt – sende Nachricht.");
-            WeakReferenceMessenger.Default.Send(new PermissionsGrantedMessage(true));
         }
         else
         {
             Console.WriteLine("[BLE][MainActivity] Berechtigung verweigert.");
-            WeakReferenceMessenger.Default.Send(new PermissionsGrantedMessage(false));
         }
     }
 

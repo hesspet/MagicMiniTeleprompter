@@ -23,8 +23,10 @@ public static class MauiProgram
         builder.Logging.AddConsole();
         builder.Logging.SetMinimumLevel(LogLevel.Debug);
 #endif
+
         builder.Services.AddSingleton<IBleService, BleService>();
 
+        // populate the the serviceProvider with the static ServiceHelper
         var serviceProvider = builder.Services.BuildServiceProvider();
         ServiceHelper.ServiceProvider = serviceProvider;
 

@@ -105,6 +105,10 @@
 	  </MauiXaml>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Messages\" />
+	</ItemGroup>
+
 	
 	<PropertyGroup Condition="'$(Configuration)' == 'Release'">
 	  <UseFastDeployment>false</UseFastDeployment>

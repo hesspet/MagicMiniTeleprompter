@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Page to display cards for selecting suits
+    and sending text with card value in short form.
+-->
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:resx="clr-namespace:BleTextSender.Resources"
@@ -8,6 +12,7 @@
     <VerticalStackLayout Spacing="16" Padding="16">
 
         <!-- Obere Reihe: Farbauswahl durch Ass-Karten -->
+
         <CollectionView x:Name="SuitSelector"
                         ItemsSource="{Binding AceCards}"
                         SelectionMode="Single"
@@ -29,6 +34,7 @@
         </CollectionView>
 
         <!-- Zweite Reihe: Karten der ausgewählten Farbe -->
+
         <CollectionView x:Name="CardGrid"
                         ItemsSource="{Binding FilteredCards}"
                         SelectionMode="Single"

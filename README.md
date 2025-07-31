@@ -53,7 +53,9 @@ Testbetrieb via USB, Akku ist hinter der Platine montiert. Wird im USB Betrieb g
 
 <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_1.jpg" width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_2.jpg" width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_3.jpg" width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/T_Display_4.jpg" width="300">
 
-## T-Display in der Hand versteckt
+## T-Display in der Hand versteckt. 
+
+Lässt sich gut "palmieren". Wiegt so gut wie nichts. Aktuell kein Case. Gibt es aber als Zubehör von Lilygo für glaube ich 8 Euro. Ich würde es selbst aber einfach mit Tape zu machen, oder durchsichtiger Schrumpfschlau etc...
 
 <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_1.jpg" 
   width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_2.jpg" 

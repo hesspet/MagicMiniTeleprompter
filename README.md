@@ -56,6 +56,11 @@ Hier geht es dann zum Wiki dort entsteht dann die weitere Dokumentation https://
 
 Findet sich auch im Wiki https://github.com/hesspet/MagicMiniTeleprompter/wiki/FAQ
 
+# Quellen:
+
+* Repository LilyGo T-Display (Schaltplan, Übersichtsgraph, Libraries, Sample Codes)
+  https://github.com/Xinyuan-LilyGO/TTGO-T-Display
+
 # Screenshots
 
 ## Android Screenshots - Version 31.7.2027
@@ -90,10 +95,7 @@ Lässt sich gut "palmieren". Wiegt so gut wie nichts. Aktuell kein Case. Gibt es
 
 Die Münze enspricht der größe einer 1 Dollar Münze also rund 4 cm. Dann hat man hier ein guten Vergleich wie groß das Gerät in der Hand ist. Münze mit Loch bringt da noch gleich ein paar Ideen....
 
-# Quellen:
-
-* Repository LilyGo T-Display (Schaltplan, Übersichtsgraph, Libraries, Sample Codes)
-  https://github.com/Xinyuan-LilyGO/TTGO-T-Display
-
 <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Vergleich_mit_M%C3%BCnze_Dollargr%C3%B6%C3%9Fe_4cm_1.jpg" width="400"><img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Vergleich_mit_M%C3%BCnze_Dollargr%C3%B6%C3%9Fe_4cm_2.jpg" width="400">
+
+
 

@@ -8,15 +8,17 @@ BLEHandler::ServerCallbacks::ServerCallbacks(DisplayHandler* d, BLEHandler* hand
   : display(d), parent(handler) {}
 
 void BLEHandler::ServerCallbacks::onConnect(BLEServer* pServer) {
-  if (display)
+  if (display && parent->goOn)
     display->showStatus(StatusText::BLE_CONNECTED, TFT_GREEN);
 }
 
 void BLEHandler::ServerCallbacks::onDisconnect(BLEServer* pServer) {
-  if (display)
+
+  if (display && parent->goOn)
     display->showStatus(StatusText::BLE_DISCONNECTED, TFT_RED);
   delay(500);
-  if (parent)
+
+  if (parent && parent->goOn)
     parent->startAdvertising();
 }
 
@@ -26,7 +28,7 @@ public:
 
   void onWrite(BLECharacteristic* pCharacteristic) override {
     String value = pCharacteristic->getValue();
-    if (value.length() > 0 && display) {
+    if (value.length() > 0 && display ) {
       display->showMessage(value);
     }
   }

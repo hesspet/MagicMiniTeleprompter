@@ -1,6 +1,5 @@
+#pragma once
 // DisplayHandler.h
-#ifndef DISPLAYHANDLER_H
-#define DISPLAYHANDLER_H
 
 #include <TFT_eSPI.h>
 #include <SPI.h>
@@ -10,18 +9,20 @@ class DisplayHandler {
 public:
   void begin();
   void showStatus(const String& text, uint16_t color);
-  void showMessage(const String& message);
+  void showMessage(const String& message, bool withOverlay=true);
   void shutdown();
   void updateBatteryBar(uint8_t percent);
   
 private:
   TFT_eSPI tft = TFT_eSPI();
 
+  uint8_t lastPercent;
+
   TFT_eSprite statusSprite = TFT_eSprite(&tft); // Sprite für Statusanzeige
   uint16_t statusColor = TFT_BLACK;
 
   void drawStatusOverlay();  
   void drawBatteryBar(uint8_t percent);
+
 };
 
-#endif

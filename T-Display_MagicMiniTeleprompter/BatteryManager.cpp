@@ -16,8 +16,21 @@ void BatteryManager::update() {
     float voltage = readVoltage();
     uint8_t percent = calcPercentage(voltage);
 
+    // when percent > 50 it means we a running on USB
+    // all valuues <= 50 are running on battery
+
+    // correct percent
+    if ( percent <= 50) 
+    {
+      percent *= 2; // Spread the battery back to 100% to show the correct value
+    }
+
     if (displayHandler) {
       displayHandler->updateBatteryBar(percent);
+
+      // String message = String(percent);
+      // displayHandler->showMessage(message);
+
     }
   }
 }

@@ -27,7 +27,7 @@ void DisplayHandler::showStatus(const String& text, uint16_t color) {
   drawStatusOverlay();  // Sprite neu zeichnen
 }
 
-void DisplayHandler::showMessage(const String& message) {
+void DisplayHandler::showMessage(const String& message, bool withOverlay) {
   tft.fillScreen(TFT_BLACK);
   tft.setTextDatum(MC_DATUM);  // Mitte zentriert
   tft.setTextColor(TFT_GREEN, TFT_BLACK);
@@ -56,6 +56,13 @@ void DisplayHandler::showMessage(const String& message) {
 
 //
 // drawStatusOverlay
+// 
+//  Draw a dot
+//  blue - ble advertising
+//  green - connected
+//  red - disconnected
+//
+//  at the end update battery bar
 //
 void DisplayHandler::drawStatusOverlay() {
 
@@ -70,6 +77,8 @@ void DisplayHandler::drawStatusOverlay() {
   int x = tft.width() - statusSprite.width() - 4;
   int y = 4;
   statusSprite.pushSprite(x, y, TFT_BLACK);  // TFT_BLACK = transparente Farbe
+
+  drawBatteryBar( lastPercent );
 }
 
 void DisplayHandler::shutdown() {
@@ -84,6 +93,9 @@ void DisplayHandler::updateBatteryBar(uint8_t percent) {
 }
 
 void DisplayHandler::drawBatteryBar(uint8_t percent) {
+  
+  lastPercent = percent;
+
   int width = tft.width();
   int barHeight = 3;
   int filled = map(percent, 0, 100, 0, width);
@@ -96,3 +108,4 @@ void DisplayHandler::drawBatteryBar(uint8_t percent) {
   tft.fillRect(0, 0, width, barHeight, TFT_BLACK);   // löschen
   tft.fillRect(0, 0, filled, barHeight, color);      // neuer Balken
 }
+

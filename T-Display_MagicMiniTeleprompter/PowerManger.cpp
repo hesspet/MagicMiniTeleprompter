@@ -1,16 +1,15 @@
 // PowerManager.cpp
+#include <esp_sleep.h>
+#include <BLEDevice.h>
 #include "PowerManager.h"
 #include "ButtonManager.h"
 #include "DisplayHandler.h"
-#include <esp_sleep.h>
-#include <BLEDevice.h>
-#include <TFT_eSPI.h>
+#include "BLEHandler.h"
 
-#include "DisplayHandler.h"
-
-void PowerManager::begin(ButtonManager* buttons, DisplayHandler* display) {
+void PowerManager::begin(ButtonManager* buttons, DisplayHandler* display, BLEHandler* ble) {
   buttonManager = buttons;
   displayHandler = display;
+  bleHandler = ble;
 }
 
 void PowerManager::update() {
@@ -23,7 +22,7 @@ void PowerManager::update() {
       unsigned long elapsed = millis() - bothPressedSince;
       unsigned long remaining = (holdDuration - elapsed) / 1000;
       if (displayHandler && remaining <= 7) {
-        displayHandler->showMessage("OFF IN: " + String(remaining));
+        displayHandler->showMessage("OFF IN: " + String(remaining), false);
       }
       if (elapsed >= holdDuration) {
         goToDeepSleep();
@@ -35,16 +34,25 @@ void PowerManager::update() {
 }
 
 void PowerManager::goToDeepSleep() {
+
   Serial.println("[POWER] Deep Sleep wird vorbereitet...");
-
-  if (displayHandler) {
-    displayHandler->shutdown();
-  }
-
+ 
+  Serial.println("[POWER] Shutdown BLE");
+  bleHandler->goOn = false;
+  delay(100);
   BLEDevice::deinit(true);
   delay(300);
 
+ if (displayHandler) {
+    Serial.println("[POWER] Shutdown Display");
+    displayHandler->shutdown();
+  }
+
+  Serial.println("[POWER] Start sleep prep");
   esp_sleep_enable_ext0_wakeup(GPIO_NUM_0, 0);
+
   Serial.println("[POWER] Schlafmodus aktiviert.");
+  delay(300);
+
   esp_deep_sleep_start();
 }

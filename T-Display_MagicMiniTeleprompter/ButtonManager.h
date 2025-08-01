@@ -1,7 +1,5 @@
+#pragma once
 // ButtonManager.h
-#ifndef BUTTONMANAGER_H
-#define BUTTONMANAGER_H
-
 #include <Arduino.h>
 #include <functional>
 
@@ -36,5 +34,3 @@ private:
   unsigned long pressStart35 = 0;
   const unsigned long longPressThreshold = 7000; // ms
 };
-
-#endif

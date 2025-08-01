@@ -33,7 +33,7 @@ void setup() {
   delay(500);       // etwas Ruhe vor BLE-Init
   
   buttonManager.begin();
-  powerManager.begin(&buttonManager, &display);
+  powerManager.begin(&buttonManager, &display, &ble);
   delay(500);       // etwas Ruhe vor BLE-Init
 
   battery.begin();
@@ -57,7 +57,7 @@ void setup() {
 }
 
 void loop() {
-  buttonManager.update();
-  powerManager.update();
-  battery.update();
+    buttonManager.update();
+    powerManager.update();
+    battery.update();
 }

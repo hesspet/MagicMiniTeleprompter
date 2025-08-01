@@ -1,6 +1,4 @@
-#ifndef BATTERYMANAGER_H
-#define BATTERYMANAGER_H
-
+#pragma once
 #include <Arduino.h>
 
 class DisplayHandler;
@@ -15,10 +13,8 @@ private:
   uint8_t analogPin;
   DisplayHandler* displayHandler;
   unsigned long lastMeasure = 0;
-  const unsigned long measureInterval = 30000; // 30 Sekunden
+  const unsigned long measureInterval = 10000; // 30 - 30000 Sekunden
 
   float readVoltage();      // Spannung in Volt
   uint8_t calcPercentage(float voltage); // Schätzung aus Spannung
 };
-
-#endif

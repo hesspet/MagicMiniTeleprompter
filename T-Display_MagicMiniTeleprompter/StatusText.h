@@ -1,6 +1,5 @@
+#pragma once
 // StatusText.h
-#ifndef STATUSTEXT_H
-#define STATUSTEXT_H
 
 namespace StatusText {
   // Systemstatus
@@ -18,5 +17,3 @@ namespace StatusText {
   constexpr const char* MESSAGE_RECEIVED = "[MSG] TEXT";
   constexpr const char* INVALID_MESSAGE  = "[!] FEHLER";
 }
-
-#endif

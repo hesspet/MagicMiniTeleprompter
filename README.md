@@ -40,6 +40,7 @@ Je nachdem, ob es hierzu Resonanz gibt, werde ich bei Interesse auch ein fertige
 
 * ~~Erste Verlautbarung in einem Chat mit Zauberern~~ OK 31.07.2025
 * ~~Shutdown - Aktuell läuft das Display bis der Akku all ist. Das ist natürlich kein Zustand. Im nächsten Schritt wird man per App oder via Tastenkommando das System in den sogenanten DeepSleep versetzen können. Dies erlaubt, dass der Akku monatelang nicht geladen werden muss. Eine Reaktivierung wird dann einfach per Knopfdruck möglich sein.~~ OK 01.08.2025  
+* ~~Anzeige des Akkuladestandes via Balkenanzeige~~ OK 01.08.2025
 * Feedbackmechanismen, um ggf. Signale an andere ESP32-Geräte zu senden – zum Beispiel zur Ansteuerung von Motoren oder ähnlichen „Zauber-Spielereien“
 * Sichtung und Bewertung weiterer Controller-Plattformen
 * Anbindung einer Smartwatch – liegt bereits startklar im Hintergrund: Amazfit GTR 4 👉 https://www.amazfit.com/products/amazfit-gtr-4

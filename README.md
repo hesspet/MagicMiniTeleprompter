@@ -46,6 +46,14 @@ Je nachdem, ob es hierzu Resonanz gibt, werde ich bei Interesse auch ein fertige
 
 Gerne auch: Integration in bestehende App-APIs. Da ich beruflich ohnehin ständig mit so etwas zu tun habe, sollte das technisch alles machbar sein – die einzige Frage ist wie immer: Habe ich Zeit und genug Ideen?
 
+# Wiki
+
+Hier geht es dann zum Wiki dort entsteht dann die weitere Dokumentation https://github.com/hesspet/MagicMiniTeleprompter/wiki
+
+# FAQ
+
+Findet sich auch im Wiki https://github.com/hesspet/MagicMiniTeleprompter/wiki/FAQ
+
 # Screenshots
 
 ## Android Screenshots - Version 31.7.2027

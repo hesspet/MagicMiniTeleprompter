@@ -1,5 +1,5 @@
 //
-// T-Display_BLE_Tester
+// T-Display_MagicMiniTeleprompter
 //
 // 
 // - Advertise BLE

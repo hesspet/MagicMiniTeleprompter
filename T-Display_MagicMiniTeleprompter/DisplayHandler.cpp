@@ -71,3 +71,10 @@ void DisplayHandler::drawStatusOverlay() {
   int y = 4;
   statusSprite.pushSprite(x, y, TFT_BLACK);  // TFT_BLACK = transparente Farbe
 }
+
+void DisplayHandler::shutdown() {
+  tft.fillScreen(TFT_BLACK); // optional: Display leeren
+  tft.writecommand(TFT_DISPOFF); // Display aus
+  tft.writecommand(TFT_SLPIN);   // Display in Schlafmodus
+  delay(100);                    // kurz warten
+}

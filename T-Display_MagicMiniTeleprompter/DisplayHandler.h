@@ -11,6 +11,7 @@ public:
   void begin();
   void showStatus(const String& text, uint16_t color);
   void showMessage(const String& message);
+  void shutdown();
   
 private:
   TFT_eSPI tft = TFT_eSPI();

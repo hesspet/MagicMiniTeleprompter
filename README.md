@@ -58,7 +58,7 @@ Findet sich auch im Wiki https://github.com/hesspet/MagicMiniTeleprompter/wiki/F
 
 # Quellen:
 
-* Repository LilyGo T-Display (Schaltplan, Übersichtsgraph, Libraries, Sample Codes)
+* Repository LilyGo T-Display (Schaltplan, Übersichtsgraph, Libraries, Sample Codes, STL-Datei für ein Gehäuse (3d-Printer))
   https://github.com/Xinyuan-LilyGO/TTGO-T-Display
 
 # Screenshots

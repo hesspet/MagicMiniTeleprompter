@@ -14,11 +14,15 @@
 #include "BLEHandler.h"
 #include "ButtonManager.h"
 #include "PowerManager.h"
+#include "BatteryManager.h"
 
 DisplayHandler display;
 BLEHandler ble;
 ButtonManager buttonManager(0, 35);
 PowerManager powerManager;
+
+// Lt. Schaltplan GPIO_34 -> BAT_ADC
+BatteryManager battery(34, &display); 
 
 void setup() {
 
@@ -31,6 +35,8 @@ void setup() {
   buttonManager.begin();
   powerManager.begin(&buttonManager, &display);
   delay(500);       // etwas Ruhe vor BLE-Init
+
+  battery.begin();
 
   // fire up ble
   ble.begin(&display);
@@ -53,4 +59,5 @@ void setup() {
 void loop() {
   buttonManager.update();
   powerManager.update();
+  battery.update();
 }

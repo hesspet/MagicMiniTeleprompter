@@ -78,3 +78,21 @@ void DisplayHandler::shutdown() {
   tft.writecommand(TFT_SLPIN);   // Display in Schlafmodus
   delay(100);                    // kurz warten
 }
+
+void DisplayHandler::updateBatteryBar(uint8_t percent) {
+  drawBatteryBar(percent);
+}
+
+void DisplayHandler::drawBatteryBar(uint8_t percent) {
+  int width = tft.width();
+  int barHeight = 3;
+  int filled = map(percent, 0, 100, 0, width);
+
+  uint16_t color = TFT_GREEN;
+  if (percent <= 50) color = TFT_YELLOW;
+  if (percent <= 30) color = TFT_RED;
+
+  // Balken zeichnen
+  tft.fillRect(0, 0, width, barHeight, TFT_BLACK);   // löschen
+  tft.fillRect(0, 0, filled, barHeight, color);      // neuer Balken
+}

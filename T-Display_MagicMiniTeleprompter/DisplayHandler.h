@@ -12,6 +12,7 @@ public:
   void showStatus(const String& text, uint16_t color);
   void showMessage(const String& message);
   void shutdown();
+  void updateBatteryBar(uint8_t percent);
   
 private:
   TFT_eSPI tft = TFT_eSPI();
@@ -20,6 +21,7 @@ private:
   uint16_t statusColor = TFT_BLACK;
 
   void drawStatusOverlay();  
+  void drawBatteryBar(uint8_t percent);
 };
 
 #endif

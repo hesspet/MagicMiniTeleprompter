@@ -50,7 +50,7 @@ Gerne auch: Integration in bestehende App-APIs. Da ich beruflich ohnehin ständi
 
 # Wiki
 
-Hier geht es dann zum Wiki dort entsteht dann die weitere Dokumentation https://github.com/hesspet/MagicMiniTeleprompter/wiki
+Hier geht es dann zum Wiki dort entsteht dann die weitere Dokumentation https://github.com/hesspet/MagicMiniTeleprompter/wiki. Insbesondere werden hier dann auch Stück für Stück Ideen zur Präsentation und zum Einsatz im Rahmen von Zauberkunststücken gesammelt. Wer weiß, vielleicht gibt's auch ein paar MagicMiniTelepromter spezial Kunststücke.
 
 # FAQ
 

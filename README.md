@@ -91,6 +91,14 @@ Lässt sich gut "palmieren". Wiegt so gut wie nichts. Aktuell kein Case. Gibt es
   width="300"> <img src="https://raw.githubusercontent.com/hesspet/MagicMiniTeleprompter/refs/heads/main/Screenshots/Anwendung_Peek_5.jpg" 
   width="300">
 
+Weitere Devices:
+
+### M5STACK StickC
+<img src="https://github.com/hesspet/MagicMiniTeleprompter/blob/main/Images/M5STACK%20%E2%80%90%20StickC%20Plus2_1.png?raw=true" 
+  width="300"> <img src="https://github.com/hesspet/MagicMiniTeleprompter/blob/main/Images/M5STACK%20%E2%80%90%20StickC%20Plus2_2.png?raw=true" 
+  width="300"> 
+
+
 ## Münzversteck
 
 Die Münze enspricht der größe einer 1 Dollar Münze also rund 4 cm. Dann hat man hier ein guten Vergleich wie groß das Gerät in der Hand ist. Münze mit Loch bringt da noch gleich ein paar Ideen....

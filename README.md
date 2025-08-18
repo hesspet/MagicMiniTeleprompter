@@ -93,7 +93,7 @@ Lässt sich gut "palmieren". Wiegt so gut wie nichts. Aktuell kein Case. Gibt es
 
 Weitere Devices:
 
-### M5STACK StickC
+### M5STACK StickC [Wiki](https://github.com/hesspet/MagicMiniTeleprompter/wiki/M5STACK-%E2%80%90-StickC-Plus2)
 <img src="https://github.com/hesspet/MagicMiniTeleprompter/blob/main/Images/M5STACK%20%E2%80%90%20StickC%20Plus2_1.png?raw=true" 
   width="300"> <img src="https://github.com/hesspet/MagicMiniTeleprompter/blob/main/Images/M5STACK%20%E2%80%90%20StickC%20Plus2_2.png?raw=true" 
   width="300"> 
